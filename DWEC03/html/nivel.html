@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina la Película</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-contenedor">
+            <img src="../images/fotograma.png" alt="Imagen de fondo" class="header-imagen">
+            <a href="../index.html">
+                <h1 class="header-titulo">Adivina la Película</h1>
+            </a>
+        </div>
+    </header>
+    <main class="nivel">
+        <section class="texto-nivel">            
+            <p>Bienvenido, en este juego pondrás a prueba tus conocimientos fílmicos intentando adivinar 
+               películas mediante una selección de imágenes, tendrás un límite de tiempo, que vendrá definido 
+               por el nivel que selecciones (Principiante 60 seg., Intermedio 45 seg. y Avanzado 30 seg.), 
+               para averiguar la película, pero cuidado, cada vez que cambies una imagen se te penalizará con 5 seg.
+               y si introduces una respuesta incorrecta se te restarán 2 seg. cada vez.
+               Pero no todo iba a ser negativo, también se te proporcionarán pistas al pasar sobre la imagen, que te 
+               serán útiles para adivinar la película.               
+            </p> 
+            <p>
+                Eso es todo, ahora selecciona el nivel que desees:
+            </p>           
+        </section>
+        <nav class="menu-nav">
+            <button type="button" id="principiante-boton" class="botonera">Principiante</button>
+            <button type="button" id="inetermedio-boton" class="botonera">Intermedio</button>
+            <button type="button" id="avanzado-boton" class="botonera">Avanzado</button>
+        </nav>
+        <div id="cuenta-atras">
+            <p>3, 2, 1...</p>            
+        </div>
+    </main>
+    <script src="../js/nivel.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina la Película</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-contenedor">
+            <img src="images/fotograma.png" alt="Imagen de fondo" class="header-imagen">
+            <a href="index.html">
+                <h1 class="header-titulo">Adivina la Película</h1>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section class="login-contenedor">
+            <form id="login-form">
+                <div class="user-icon">
+                    <img src="images/user.png" alt="Imagen de usuario">
+                </div>
+                <div>
+                    <input type="text" id="username" name="username" placeholder="Usuario" required>
+                </div>
+                <div>
+                    <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                </div>
+                <button type="button" id="login-boton">Login</button>
+            </form>
+            <p id="mensaje-Error" class="mensaje-Error"></p>
+        </section>
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>

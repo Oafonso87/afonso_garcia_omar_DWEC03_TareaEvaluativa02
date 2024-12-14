@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina la Película</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-contenedor">
+            <img src="../images/fotograma.png" alt="Imagen de fondo" class="header-imagen">
+            <a href="../index.html">
+                <h1 class="header-titulo">Adivina la Película</h1>
+            </a>
+        </div>
+    </header>
+    <main class="jugar">
+        <section class="carrusel">
+            <button id="anterior-imagen" class="boton-imagen izq">&#10094;</button>
+            <img id="imagen-pelicula" src="" alt="">
+            <button id="siguiente-imagen" class="boton-imagen dch">&#10095;</button>
+        </section>
+        <aside class="info-container">
+            <h3>Tiempo Restante:</h3>
+            <div id="temporizador"></div>
+            <h3>Recuerda:</h3>
+            <div class="recuerda">                
+                <p>Cambiar Imagen</p>
+                <p>- 5 segundos</p>
+                <p>Respuesta Errónea</p>
+                <p>- 2 segundos</p>
+            </div>
+            <p id="mensaje-Fallo" class="mensaje-Error"></p>
+        </aside>
+        <section class="input-container">
+            <input type="text" id="titulo-input" placeholder="Introduce el título">
+            <button id="adivinar-boton">Adivina</button>            
+        </section>
+    </main>
+    <script src="../js/juego.js"></script>
+</body>
+</html>

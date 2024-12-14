@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "titulo_es": "BRAVEHEART",      
+        "titulo_en": "BRAVEHEART",
+        "imagenes": [
+            "../images/braveheart/brave1.png",
+            "../images/braveheart/brave2.png",
+            "../images/braveheart/brave3.png",
+            "../images/braveheart/brave4.png",
+            "../images/braveheart/brave5.png"
+        ],
+        "pistas": [
+            "Se estrenó en 1995.",
+            "Dirigida por Mel Gibson.",
+            "Narra la lucha de William Wallace por la libertad de Escocia.",
+            "Incluye batallas épicas.",
+            "El grito '¡Libertad!' es uno de los momentos más recordados."
+        ],
+        "cartel": "../images/braveheart/braveCartel.png",
+        "enlace": "https://www.imdb.com/title/tt0112573/?ref_=nv_sr_srsg_0_tt_5_nm_3_in_0_q_braveheart"
+    },
+    {
+        "id": 2,
+        "titulo_es": "EL CABALLERO OSCURO",
+        "titulo_en": "THE DARK KNIGHT",
+        "imagenes": [
+            "../images/elCaballeroOscuro/caballero1.png",
+            "../images/elCaballeroOscuro/caballero2.png",
+            "../images/elCaballeroOscuro/caballero3.png",
+            "../images/elCaballeroOscuro/caballero4.png",
+            "../images/elCaballeroOscuro/caballero5.png"
+        ],
+        "pistas": [
+            "Se estrenó en 2008.",
+            "Dirigida por Christopher Nolan.",
+            "Algunos actores destacados son Christian Bale y Heath Ledger.",
+            "La frase '¿Por qué tan serio?' es muy famosa.",
+            "Es la segunda parte de una trilogía."
+        ],
+        "cartel": "../images/elCaballeroOscuro/caballeroCartel.png",
+        "enlace": "https://www.imdb.com/title/tt0468569/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_the%2520dark%2520knight"
+    },
+    {
+        "id": 3,
+        "titulo_es": "INTERSTELLAR",
+        "titulo_en": "INTERSTELLAR",
+        "imagenes": [
+            "../images/interstellar/inter1.png",
+            "../images/interstellar/inter2.png",
+            "../images/interstellar/inter3.png",
+            "../images/interstellar/inter4.png",
+            "../images/interstellar/inter5.png"
+            ],
+        "pistas": [
+            "Se estrenó en 2014.",
+            "Dirigida por Christopher Nolan.",
+            "La película explora viajes a través de agujeros de gusano.",
+            "Cuenta con la actuación de Matthew McConaughey.",
+            "La relación entre padre e hija es clave en la trama."
+        ],
+        "cartel": "../images/interstellar/interCartel.png",
+        "enlace": "https://www.imdb.com/title/tt0816692/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_interstellar"
+    },
+    {
+        "id": 4,
+        "titulo_es": "KILL BILL 1",
+        "titulo_en": "KILL BILL 1",
+        "imagenes": [
+            "../images/killBill/kill1.jpg",
+            "../images/killBill/kill2.jpg",
+            "../images/killBill/kill3.jpg",
+            "../images/killBill/kill4.png",
+            "../images/killBill/kill5.jpg"
+        ],
+        "pistas": [
+            "Se estrenó en 2003.",
+            "Dirigida por Quentin Tarantino.",
+            "La protagonista busca venganza tras una traición.",
+            "La katana de Hattori Hanzo es icónica.",
+            "El traje amarillo de la protagonista es un homenaje a Bruce Lee."
+        ],
+        "cartel": "../images/killBill/killCartel.png",
+        "enlace": "https://www.imdb.com/title/tt0266697/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_kill%2520bill"
+    },
+    {
+        "id": 5,
+        "titulo_es": "MAD MAX",
+        "titulo_en": "MAD MAX",
+        "imagenes": [
+            "../images/madMax/mad1.png",
+            "../images/madMax/mad2.png",
+            "../images/madMax/mad3.png",
+            "../images/madMax/mad4.png",
+            "../images/madMax/mad5.png"
+        ],
+        "pistas": [
+            "Se estrenó en 2015.",
+            "Dirigida por George Miller.",
+            "La acción transcurre en un mundo postapocalíptico.",
+            "Furiosa es un personaje clave en la trama.",
+            "Las escenas de persecución son impresionantes."
+        ],
+        "cartel": "../images/madMax/madCartel.png",
+        "enlace": "https://www.imdb.com/title/tt1392190/?ref_=nv_sr_srsg_0_tt_7_nm_1_in_0_q_fury%2520ro"
+    },
+    {
+        "id": 6,
+        "titulo_es": "MALDITOS BASTARDOS",
+        "titulo_en": "INGLOURIOUS BASTERDS",
+        "imagenes": [
+            "../images/malditosBastardos/malditos1.png",
+            "../images/malditosBastardos/malditos2.png",
+            "../images/malditosBastardos/malditos3.png",
+            "../images/malditosBastardos/malditos4.png",
+            "../images/malditosBastardos/malditos5.png"
+        ],
+        "pistas": [
+            "Se estrenó en 2009.",
+            "Dirigida por Quentin Tarantino.",
+            "La historia transcurre durante la Segunda Guerra Mundial.",
+            "Christoph Waltz ganó un Oscar por su papel.",
+            "El final de la película mejora la realidad."
+        ],
+        "cartel": "../images/malditosBastardos/malditosCartel.png",
+        "enlace": "https://www.imdb.com/title/tt0361748/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_maldit"
+    },
+    {
+        "id": 7,
+        "titulo_es": "ORIGEN",
+        "titulo_en": "INCEPTION",
+        "imagenes": [
+            "../images/origen/origen1.jpg",
+            "../images/origen/origen2.jpg",
+            "../images/origen/origen3.jpg",
+            "../images/origen/origen4.jpg",
+            "../images/origen/origen5.jpg"
+        ],
+        "pistas": [
+            "Se estrenó en 2010.",
+            "Dirigida por Christopher Nolan.",
+            "Explora el concepto de sueños dentro de sueños.",
+            "El tótem es clave para saber si estás soñando.",
+            "Cuenta con la actuación de Leonardo DiCaprio."
+        ],
+        "cartel": "../images/origen/origenCartel.jpg",
+        "enlace": "https://www.imdb.com/title/tt1375666/?ref_=nv_sr_srsg_3_tt_8_nm_0_in_0_q_orige"
+    },
+    {
+        "id": 8,
+        "titulo_es": "SEVEN",
+        "titulo_en": "SEVEN",
+        "imagenes": [
+            "../images/seven/seven1.png",
+            "../images/seven/seven2.png",
+            "../images/seven/seven3.png",
+            "../images/seven/seven4.png",
+            "../images/seven/seven5.png"
+        ],
+        "pistas": [
+            "Se estrenó en 1995.",
+            "Dirigida por David Fincher.",
+            "Gira en torno a los siete pecados capitales.",
+            "Protagonizada por Brad Pitt y Morgan Freeman.",
+            "El final incluye una caja misteriosa."
+        ],
+        "cartel": "../images/seven/sevenCartel.png",
+        "enlace": "https://www.imdb.com/title/tt0114369/?ref_=nv_sr_srsg_5_tt_6_nm_2_in_0_q_seve"
+    }
+]

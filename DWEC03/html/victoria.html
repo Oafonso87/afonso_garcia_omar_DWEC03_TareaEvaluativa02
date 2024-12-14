@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina la Película</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-contenedor">
+            <img src="../images/fotograma.png" alt="Imagen de fondo" class="header-imagen">
+            <a href="../index.html">
+                <h1 class="header-titulo">Adivina la Película</h1>
+            </a>
+        </div>
+    </header>
+    <main class="nivel">
+        <section class="mensaje">            
+            <p id="mensaje-jugador"></p>
+            <p id="tiempo-restante"></p>
+            <p class="victorias" id="victorias"></p>
+            <div class="mas-info">
+                <p>Saber más</p>
+                <button id="desplegar-boton">+</button>
+                <a id ="enlace" href="" target="_blank">
+                    <img id="cartel-ganador" src="" alt="">
+                </a>
+            </div>            
+        </section>
+        <nav class="menu-nav-2">
+            <button type="button" id="rejugar-boton" class="botonera-2">Volver a Jugar</button>
+            <button type="button" id="salir-boton" class="botonera-2">Salir</button>            
+        </nav>
+    </main>
+    <script src="../js/victoria.js"></script>
+</body>
+</html>
